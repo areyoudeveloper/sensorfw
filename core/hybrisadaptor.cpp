@@ -129,7 +129,7 @@
 
 #ifdef USE_BINDER
 #define SENSOR_BINDER_SERVICE_DEVICE "/dev/hwbinder"
-#define SENSOR_BINDER_SERVICE_IFACE "android.hardware.sensors@1.0::ISensors"
+#define SENSOR_BINDER_SERVICE_IFACE "android.hardware.sensors@2.0::ISensors"
 #define SENSOR_BINDER_SERVICE_NAME  SENSOR_BINDER_SERVICE_IFACE "/default"
 #endif
 
