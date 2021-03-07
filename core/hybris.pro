@@ -20,7 +20,7 @@ HEADERS += hybrisadaptor.h
 LIBS += -L/usr/lib -L../datatypes
 
 !contains(CONFIG,binder) {
-    INCLUDEPATH += /usr/include/android-28
+    INCLUDEPATH += /usr/include/android-29
     LIBS += -lhybris-common -lhardware
 } else {
     INCLUDEPATH += /usr/include/gbinder /usr/include/gutil /usr/include/glib-2.0
